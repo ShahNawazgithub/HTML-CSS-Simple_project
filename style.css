@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    margin: 0 34px;
+    padding: 9px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav_logo{
+    width: 90px;
+}
+.header_nav-items{
+    display: flex;
+    gap: 30px;
+    align-items: center
+}
+.header_nav-item a{
+    color: #0e69af;
+    text-decoration: none;
+    font-size:25px;
+}
+ 
+.header_nav-item a:hover{
+    color: #131212 ;
+    text-decoration:underline;
+}
+/* Main */
+/* section 1 */
+.hero{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+.main_text{
+    width: 600px;
+}
+.main_img img{  
+width: 550px;
+height: 300px;
+}
+
+.main_text-heading{
+font-size: 45px;
+color: grey;
+}
+/*  Section 2 (Card)*/
+.showcase{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.showcase_cards p{
+    color: grey;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.main_text-section{
+    color:grey;
+}
+
+/* section 5  */
+.footer{
+    background-color:black;
+    color: white;
+    padding: 14px;
+}
+.footer_text{
+  text-align: center;  
+}
